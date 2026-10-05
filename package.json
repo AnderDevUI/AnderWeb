@@ -6,6 +6,10 @@
   "engines": {
     "node": ">=20.19.0"
   },
+  "allowScripts": {
+    "@tailwindcss/oxide": true,
+    "esbuild": true
+  },
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
