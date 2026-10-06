@@ -123,7 +123,7 @@ export default function CommandConsole() {
       </div>
 
       <form className="command-console__form" onSubmit={handleSubmit}>
-        <span className="command-console__prompt">></span>
+        <span className="command-console__prompt">{'>'}</span>
 
         <input
           ref={inputRef}
