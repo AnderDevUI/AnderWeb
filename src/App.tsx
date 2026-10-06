@@ -1,5 +1,11 @@
-import { Monochrome3D } from './components/Monochrome3D';
+import CommandConsole from "./components/CommandConsole";
 
-export function App() {
-  return <Monochrome3D />;
+function App() {
+  return (
+    <>
+      <CommandConsole />
+    </>
+  );
 }
+
+export default App;
